@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <project path="rpm"                            name="sailfish-sdm660/droid-hal-whyred"         revision="master" />
+    <project path="hybris/droid-configs"           name="sailfish-sdm660/droid-config-whyred"      revision="master" />
+    <project path="hybris/droid-hal-version-whyred" name="sailfish-sdm660/droid-hal-version-whyred" revision="master" />
+</manifest> 

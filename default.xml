@@ -98,7 +98,7 @@
   <project name="lineageos/android_device_qcom_common" path="device/qcom/common" remote="github2" revision="d1dacc6c79481f2f1e720a2cb14401a3593c4e26" upstream="cm-14.1"/>
   <project name="mer-hybris/android_external_busybox" path="external/busybox" revision="hybris-13.0"/>
   <project name="mer-hybris/audioflingerglue" path="external/audioflingerglue" revision="master"/>
-  <project name="mer-hybris/hybris-boot" path="hybris/hybris-boot" revision="master"/>
+  <project name="mer-hybris/hybris-boot" path="sailfish-sdm660/hybris-boot" revision="master"/>
   <project name="mer-hybris/mer-kernel-check" path="hybris/mer-kernel-check" revision="master"/>
   <project name="sailfishos/droidmedia" path="external/droidmedia" revision="master"/>
   <project groups="pdk" name="mer-hybris/android_bionic" path="bionic" revision="hybris-14.1"/>
@@ -182,4 +182,7 @@
   <project clone-depth="1" groups="linux,pdk,tradefed" name="platform/prebuilts/ninja/linux-x86" path="prebuilts/ninja/linux-x86" remote="aosp" revision="08c87a043c925cf88a98d73a8f01a9e06fab7cb9" upstream="refs/tags/android-7.1.2_r29"/>
   <project clone-depth="1" groups="pdk" name="platform/prebuilts/sdk" path="prebuilts/sdk" remote="aosp" revision="23f7de5ba433fc82269ba63c203fe0a3eaf4a680" upstream="refs/tags/android-7.1.2_r29"/>
   <project clone-depth="1" groups="pdk,tools" name="platform/prebuilts/tools" path="prebuilts/tools" remote="aosp" revision="b5022f03051bf5ad63112659132e3ec0fa6af4ce" upstream="refs/tags/android-7.1.2_r29"/>
+  
+  <include name="whyred.xml" />
+  
 </manifest>
